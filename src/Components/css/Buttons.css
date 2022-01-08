@@ -1,0 +1,33 @@
+.buttons {
+  width: 100%;
+  display: grid;
+  border: 2px solid lightgray;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "clear clear divide multiply"
+    "seven eight nine minus"
+    "four five six plus"
+    "one two three equal"
+    "zero zero period equal";
+  gap: 0;
+  border: none;
+}
+.buttons > button {
+  font-size: 1.2rem;
+  border-radius: 0 !important;
+  outline: 0.5px solid black !important;
+}
+
+.buttons > button:hover {
+  outline: 0.5px solid white !important;
+  z-index: 999 !important;
+  color: #d1e8e2 !important;
+  background: #d9b08c !important;
+}
+
+#clear:hover {
+  background: crimson !important;
+  color: black !important;
+  filter: brightness(110%) !important;
+}

@@ -1,0 +1,15 @@
+.displayContainer {
+  color: #d1e8e2;
+  margin-top: 10px;
+  width: 100%;
+  text-align: right;
+}
+
+.displayInput {
+  color: #88c232;
+  min-height: 21px;
+}
+.displayInput,
+.displayResults {
+  margin-bottom: 10px;
+}
